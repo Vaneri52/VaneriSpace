@@ -4,7 +4,8 @@
   "description": "Reto QA Junior para Double V",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "cypress:open": "cypress open"
   },
   "keywords": [
     "Wingo",
