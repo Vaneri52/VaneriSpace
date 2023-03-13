@@ -12,5 +12,8 @@
     "Cypress"
   ],
   "author": "Vanessa Rincon",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
 }
