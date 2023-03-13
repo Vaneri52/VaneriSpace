@@ -1,0 +1,16 @@
+{
+  "name": "retodoublev",
+  "version": "1.0.0",
+  "description": "Reto QA Junior para Double V",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Wingo",
+    "Automation",
+    "Cypress"
+  ],
+  "author": "Vanessa Rincon",
+  "license": "ISC"
+}
