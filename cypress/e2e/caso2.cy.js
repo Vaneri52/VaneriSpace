@@ -4,8 +4,8 @@ describe('Search test cases', function()
   {
     cy.visit('https://www.wingo.com/')
 
-    cy.get('.input-origen').should('have.value', 'Bogotá (BOG) El Dorado')
-    cy.get('select').click({force: true})
+    cy.get('.input-origen')
+    cy.get('select').should('have.value', 'Bogotá (BOG) El Dorado').click({force: true})
 
     cy.get('.input-destino').click({force: true})
     cy.get('select').should('have.value', 'Cali (CLO) Alfonso Bonilla Aragón')
